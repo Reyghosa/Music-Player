@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf511b7bc2.js" crossorigin=""></script>
+    <link rel="stylesheet" href="/music.css">
+    <title>Music site</title>
+</head>
+<body>
+
+    <audio src=""   id="audio-source"></audio>
+    
+
+
+    <section class="home-section">
+        <div class="carousel">
+            <img src="/image/matt-botsford-OKLqGsCT8qs-unsplash (1).jpg" alt="" class="active">
+            <img src="/image/gabriel-gurrola-2UuhMZEChdc-unsplash.jpg" alt="">
+            <img src="/image/6lack.jpeg" alt="">
+            <img src="/image/james-stamler-k3heD_KwH0A-unsplash.jpg" alt="">
+            <img src="/image/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" alt="">
+        </div>
+        <h1 class="heading">Recently played</h1>
+        <div class="playlists-group">
+            <div class="plalists-cards">
+                <img src="image/marcela-laskoski-YrtFlrLo2DQ-unsplash (1).jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">International</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Top picks</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/283927145_547351690280858_6234108581308480842_n.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Local</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/gabriel-gurrola-2UuhMZEChdc-unsplash.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Hot 100</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/6lack.jpeg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Artist of the week</p>
+            </div>
+        </div>
+
+        <h1 class="heading">Currently Listening</h1>
+        <div class="playlists-group">
+            <div class="plalists-cards">
+                <img src="image/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Pop</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Christian</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/james-stamler-k3heD_KwH0A-unsplash.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Contemporary</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/matt-botsford-OKLqGsCT8qs-unsplash (1).jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Karoke</p>
+            </div>
+            <div class="plalists-cards">
+                <img src="image/297446219_1089051418654433_9188696098222778210_n.jpg" alt="" class="playlist-card-img">
+                <p class="plalist-card-name">Nigerian</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="music-player-section " >
+        <i class="fa-solid fa-less-than back-btn icon hide"></i>
+        <i class="fa-solid fa-bars nav-btn icon hide"></i>
+        <h1 class="current-song-name">Rush</h1>
+        <p class="artist-name hide">Ayra Starr</p>
+
+        <img src="/image/283927145_547351690280858_6234108581308480842_n.jpg " class="cover hide" alt="">
+
+        <div class="seek-bar-container">
+            <input type="range" class="music-seek-bar" value="0" max="" >
+            <p class="current hide">00 : 00</p>
+            <p class="duration hide">00:00</p>
+        </div>
+
+        <div class="controls">
+            <span class="fa-sharp fa-solid fa-rotate-right"></span>
+            <div class="main">
+                <i class="fa-solid fa-backward active"></i>
+                <i class="fa-solid fa-play active"></i>
+                <i class="fa-solid fa-pause"></i>
+                <i class="fa-solid fa-forward active"></i>
+            </div>
+            <input type="range" class="volume-slider" max="1" value="1" step="0.1">
+            <span class="fa-solid fa-volume-high"></span>
+        </div>
+        
+    </section>
+
+    <section class="playlist">
+        <i class="fa-solid fa-less-than back-btn icon "></i>
+        <h1 class="title">playlist</h1>
+
+        <div class="queue active">
+            <div class="queue-cover">
+                <img src="/image/283927145_547351690280858_6234108581308480842_n.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Rush</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/6lack.jpeg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Switch</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Pretty Little Fears</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Jerusalema Remix</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/297446219_1089051418654433_9188696098222778210_n.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">History</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">It's You</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Lonely</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/297446219_1089051418654433_9188696098222778210_n.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Loved By You</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/gabriel-gurrola-2UuhMZEChdc-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Lovely</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Faded</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/283718396_559409399130584_1334646409521074721_n.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Calm Down</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/marcela-laskoski-YrtFlrLo2DQ-unsplash (1).jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Nypense Plus</p>
+        </div>
+
+        <div class="queue">
+            <div class="queue-cover">
+                <img src="/image/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" alt="">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <p class="name">Older</p>
+        </div>
+
+
+
+    </section>
+
+    <script src="/data.js" type="module"></script>
+    <script src="music.js" type="module"></script>
+</body>
+</html>
